@@ -1,5 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+.gitignore
 # dependencies
 /node_modules
 /.pnp
@@ -16,6 +17,7 @@
 # next.js
 /.next/
 /out/
+next.config.js
 
 # production
 /build
@@ -39,3 +41,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+tsconfig.json
+
+
+biome.json
+package-lock.json
+package.json
