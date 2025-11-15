@@ -4,6 +4,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Clipmage",
   description: "Clipmage for OCR and fast paste",
+  icons: {
+    icon: "assets/icon.ico",
+  },
 };
 
 export default function RootLayout({
