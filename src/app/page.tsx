@@ -38,13 +38,8 @@ export default function Home() {
             Select, capture, and automatically copy to the clipboard.
           </p>
         </header>
-        <section className={`${inter.className} py-5 -mt-6`}>
-          <div className="mx-auto max-w-3xl rounded-3xl bg-linear-to-br from-slate-50 to-slate-100 px-4 sm:px-6 py-6">
-            <Shortcuts initialId="capture" />
-          </div>
-        </section>
         <nav
-          className="flex gap-2 flex-wrap justify-center -mt-4"
+          className="flex gap-2 flex-wrap justify-center"
           aria-label="Download and repository links"
         >
           <a
@@ -61,6 +56,12 @@ export default function Home() {
             Repository
           </a>
         </nav>
+        <section className={`${inter.className} py-5 -mt-6`}>
+          <div className="mx-auto max-w-3xl rounded-3xl bg-linear-to-br from-slate-50 to-slate-100 px-4 sm:px-6 py-6">
+            <Shortcuts initialId="capture" />
+          </div>
+        </section>
+
         <footer className="text-center -mt-2">
           <p
             className={`${lobster.className} bg-linear-to-r from-green-400 inline-block to-green-700 text-transparent bg-clip-text font-bold text-4xl`}
